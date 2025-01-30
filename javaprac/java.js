@@ -38,11 +38,15 @@ const newfile = gameName.substring(1,4);
 
 const newstr = "  arrow   "
 console.log(newstr);
-console.log(newstr.trim());
+console.log(newstr.trim()); // used for triming the spaces in input
 
 const url = "https://google.com/ans454$h"
 
 console.log(url.replace('45','hs'));
 console.log(url.includes('da'));
 
-console.log(gameName.split([' ']));
+// console.log(gameName.split([' ']));
+
+console.log(url.split('/'));
+
+
