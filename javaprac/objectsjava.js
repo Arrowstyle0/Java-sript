@@ -31,5 +31,22 @@ const obj3 = Object.assign(pnj,pnj2)
 
 console.log(obj3);
 
+const object = {
 
+    userName : "Arrowstyle",
+    userAge : 45,
+    userHobbies : {
+        firstHobbie : "Design",
+        secondHobbie : "Gaming"
+    },
+    userprofession : "Student",
+    userMarksrecord : {10 : "65%" , 12 : "55%"},
+
+}
   
+console.log(object.userName.substring(3,6));
+
+
+let data = new Date()
+
+console.log(data.toLocaleString())
