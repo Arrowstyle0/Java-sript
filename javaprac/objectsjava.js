@@ -28,4 +28,8 @@ const obj3 = Object.assign(pnj,pnj2)
 
 // console.log(pnj3);
 
+
 console.log(obj3);
+
+
+  
