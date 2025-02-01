@@ -50,3 +50,23 @@ console.log(object.userName.substring(3,6));
 let data = new Date()
 
 console.log(data.toLocaleString())
+
+const course = {
+    courseName : "java.basics",
+    price : 34,
+    courseInstructor : "Brave"
+}
+
+// course.
+// courseInstructor
+
+const {courseInstructor} = course 
+
+console.log(courseInstructor); // to destructure the object 
+
+// {
+//     name : "ndkaw",
+//     coursenanme : "js in hindi",
+//     "price" : 457,
+
+
