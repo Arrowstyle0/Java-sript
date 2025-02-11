@@ -15,6 +15,6 @@ let timeStamp = Date.now();
 
 // console.log(timeStamp);
 // console.log(theNewdate.getTime());
-console.log(theNewdate.getFullYear());
+console.log(theNewdate.getMilliseconds());
 
 
