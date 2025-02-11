@@ -58,7 +58,11 @@ for (const key in myfield) {
     }
 for (const key in myObject) {
 
-    console.log();
-    
-
+    console.log(`${key} shortcut is for ${myfield[key]}`);
+   
 }
+
+const data = ["dad" , "sfs" , "aaa"]
+
+    for (const annd in data)
+        console.log(data)
