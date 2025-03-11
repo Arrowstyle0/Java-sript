@@ -39,7 +39,7 @@ const books = [
     { title: 'Book Nine', genre: 'Non-Fiction', publish: 1981, edition: 1989 },
   ];
 
-  let bookrev = books.filter( (bk) => bk.publish >= 2000 && bk.edition = 2010  )
+  let bookrev = books.filter( (bk) => bk.publish >= 2000 && bk.edition >= 2010  )
 
   console.log(bookrev);
   
