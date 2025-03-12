@@ -31,15 +31,10 @@ do {
 } while ( score <= 10);
 
 
-let table = 0
-
-while (table < 30) 
-    {
-    table = table
-        // console.log(`3 : ${table} `) 
-}
 
 for (let index = 0; index <= 10; index++) {
-    const element = console.log(`${index} and ${table}`) 
-    console.log(element);
-}   
+     console.log( "3 * " + index , " : " , index * 3)  
+
+    
+}
+
