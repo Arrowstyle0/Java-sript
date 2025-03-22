@@ -69,3 +69,51 @@ promisefour
 }).finally(() => console.log("The promise is either resolved or what else") );
 
 
+const promisefive = new Promise(function(resolve, reject) {
+    setTimeout(function(){
+        let error  = true
+        if(!error) {
+            resolve({Name:"mwew" , password : "Ion456"})
+         } else {
+            reject('Error : Something went wrong')
+         }  
+
+    } , 1000 )
+});
+
+async  function consumePromiseFive(){
+   try { const response = await promisefive
+    console.log(response);
+   } catch (error) {
+        console.log(error);
+        
+   }
+       
+}
+
+consumePromiseFive()
+
+async function getAllUser() {
+    try {
+    
+        const response = await fetch('https://api.github.com/users/Arrowstyle0')
+            const data  = response.json()
+            console.log(data);
+    } catch (error) {
+        console.log("E:" , error);
+        
+    }
+            
+}
+
+    
+//getAllUser()
+
+fetch('https://api.github.com/users/Arrowstyle0').then((response) => {
+    return response.json()
+
+}).then((data) => {
+    console.log(data);
+
+})
+. catch((error) => console.log(error))
