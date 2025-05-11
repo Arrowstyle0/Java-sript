@@ -12,14 +12,14 @@ const thestrarray = ["batman","joker","venom"];
 
 // console.log(thestrarray);
 
-// console.log(thestrarray.pop([2]));
+console.log(thestrarray.pop([0]));
 
-// console.log(thestrarray);
+console.log(thestrarray);
 
-console.log(thearray.unshift("domi"));
-// console.log(thearray);
+console.log(thearray.unshift(0));
+console.log(thearray);
 
-const myar = thearray.slice(1,4);
+const myar = thearray.slice(1,4); 
 
 console.log(myar);
 

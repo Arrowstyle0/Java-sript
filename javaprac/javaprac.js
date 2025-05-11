@@ -10,7 +10,7 @@ function clock() {
      const products_data1 =  [ "vegies","fruits","home kitchen","food essentials"]
      const products_data2 =  ["tools","lights","safety products","toys"]
      
-     console.log(products_data1.at(0).toUpperCase(), products_data1.at(1).toUpperCase(), products_data1.at(2).toUpperCase(), products_data1.at(3).toUpperCase());
+     console.log(products_data1.at(0,1,2,3).toUpperCase());
      console.log(products_data2.at(0).toUpperCase(), products_data2.at(1).toUpperCase(), products_data2.at(2).toUpperCase(), products_data2.at(3).toUpperCase());
 
 products_data1.forEach( function (items) {
@@ -18,10 +18,7 @@ products_data1.forEach( function (items) {
 
 if (products_data1  === products_data2)
     console.log("The given data is appropriate")
-else console.log( `The data requires the reanalysis ${ products_data2}`)
-
-
-    
+else console.log( "The data requires the reanalysis of  Products_data2}")    
 })
 }
 

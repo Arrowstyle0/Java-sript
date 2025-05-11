@@ -2,27 +2,27 @@
 
 const items = ["py", "java","js","iosteam"]
 
-//   const value =   items.forEach( (prod) => {
-        // console.log(prod);
-
+  const value =   items.forEach( (prod) => {
+        //   console.log(prod);
+  } )
+  
     
 
 // console.log(value);
-
 const numbers = [10,200,30,40,50,60]
 
-const nemesis = numbers.filter( (num) => num > 4)
+const nemesis = numbers.filter( (num) => num < 400)
  
 // console.log(nemesis);
 
 
 const jiva = []
 
-// numbers.forEach ( ( numbers)  => {
-//     if ( nemesis > 4 ) {
-//         numbers.push(nemesis)
-//     }
-// })
+numbers.forEach ( ( numbers)  => {
+    if ( nemesis < 400 ) {
+        numbers.push(nemesis)
+    }
+})
 
 // console.log(numbers);
 
@@ -41,5 +41,15 @@ const books = [
 
   let bookrev = books.filter( (bk) => bk.publish >= 2000 && bk.edition >= 2010  )
 
-  console.log(bookrev);
+const bookset = []
+
+  books.forEach ( (books) => {
+        if(books.publish > 1985) {
+                books.push(bookset)
+        }
+                
+
+                        
+  }) 
   
+console.log(books);
